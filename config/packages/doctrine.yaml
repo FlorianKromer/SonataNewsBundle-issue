@@ -29,3 +29,14 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+
+            # FOSUserBundle: ~
+            # ApplicationSonataUserBundle: ~
+            # SonataUserBundle: ~
+            # ApplicationSonataMediaBundle: ~
+            # SonataMediaBundle: ~
+            # ApplicationSonataClassificationBundle: ~
+            # SonataClassificationBundle: ~
+            # ApplicationSonataNewsBundle: ~
+            # SonataNewsBundle: ~
+

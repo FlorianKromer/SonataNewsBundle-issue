@@ -17,6 +17,8 @@ sonata_news:
         comment:    App\Application\Sonata\NewsBundle\Entity\Comment
         media:      App\Application\Sonata\MediaBundle\Entity\Media
         user:       App\Application\Sonata\UserBundle\Entity\User
+        tag:       App\Application\Sonata\UserBundle\Entity\Tag
+
 
     admin:
         post:

@@ -35,4 +35,5 @@ return [
     App\Application\Sonata\NewsBundle\ApplicationSonataNewsBundle::class => ['all' => true],
     App\Application\Sonata\MediaBundle\ApplicationSonataMediaBundle::class => ['all' => true],
     App\Application\Sonata\ClassificationBundle\ApplicationSonataClassificationBundle::class => ['all' => true],
+    Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle::class => ['dev' => true, 'test' => true],
 ];
