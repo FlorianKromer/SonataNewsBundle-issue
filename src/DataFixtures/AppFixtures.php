@@ -29,6 +29,7 @@ class AppFixtures extends Fixture implements ContainerAwareInterface
         $userManager = $this->container->get('fos_user.user_manager');
 
         $user = $userManager->createUser();
+        $data = $this->getData();
 
         $user->setUsername($data['username']);
         $user->setUsernameCanonical($data['username']);
@@ -87,7 +88,7 @@ class AppFixtures extends Fixture implements ContainerAwareInterface
 
     private function getData()
     {
-        return [
+        return 
             [
                 'username' => 'testuser',
                 'password' => 'p@ssword',
@@ -96,7 +97,7 @@ class AppFixtures extends Fixture implements ContainerAwareInterface
                 'lastname' => 'Big',
                 'role' => 'ROLE_ADMIN',
                 'enabled' => true,
-            ],
+         
         ];
     }
 }
